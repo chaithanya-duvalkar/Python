@@ -1,8 +1,9 @@
-'''
-read and print first line
+'''basic programs'''
+
+'''read and print first line'''
 a=input()
 print(a)
-'''
+
 
 '''read and print first line and second line as #'''
 a=input()
