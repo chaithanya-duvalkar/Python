@@ -9,3 +9,6 @@ if Armstrong_number == int(N):
     print("True")
 else:
     print("False")
+
+
+
