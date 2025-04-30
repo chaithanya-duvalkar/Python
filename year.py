@@ -2,7 +2,6 @@
 Given N number of days as input, write a program to convert N number of days to years (Y),
 weeks(W) and days(D).
 '''
-
 N=int(input())
 
 Y=N//365
