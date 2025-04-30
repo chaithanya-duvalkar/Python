@@ -11,4 +11,13 @@ else:
     print("False")
 
 
+'''
+Write a program that reads a four-digit number N and checks if N is an Armstrong Number.
+'''
 
+n=int(input())
+
+if n==sum(int(d)**4 for d in str(n)):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
