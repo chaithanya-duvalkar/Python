@@ -53,3 +53,27 @@ print("100 Notes:",hundreds)
 print("50 Notes:",fifty)
 print("20 Notes:",twenty)
 print("10 Notes:",ten)
+
+
+'''
+
+'''
+A=int(input())
+
+two_thousands=int(A/2000)
+a=A-(2000*two_thousands)
+five_hundred=int(a/500)
+b=A-(2000*two_thousands)-(500*five_hundred)
+two_hundred=int(b/200)
+c=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)
+fifty=int(c/50)
+d=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)-(50*fifty)
+twenty=int(d/20)
+e=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)-(50*fifty)-(20*twenty)
+five=int(e/5)
+f=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)-(50*fifty)-(20*twenty)-(5*five)
+two=int(f/2)
+g=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)-(50*fifty)-(20*twenty)-(5*five)-(2*two)
+one=int(g/1)
+
+print(f"2000:{two_thousands} 500:{five_hundred} 200:{two_hundred} 50:{fifty} 20:{twenty} 5:{five} 2:{two} 1:{one}")
