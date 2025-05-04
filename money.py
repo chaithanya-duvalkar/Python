@@ -35,3 +35,21 @@ c=b-(10*tens)
 ones=int(c/1)
 
 print("500:",five_hundreds,"50:",fiftys,"10:",tens,"1:",ones)
+
+
+''' 
+'''
+A=int(input())
+
+hundreds=int(A/100)
+a=A-(100*hundreds)
+fifty=int(a/50)
+b=A-(100*hundreds)-(50*fifty)
+twenty=int(b/20)
+c=A-(100*hundreds)-(50*fifty)-(20*twenty)
+ten=int(c/10)
+
+print("100 Notes:",hundreds)
+print("50 Notes:",fifty)
+print("20 Notes:",twenty)
+print("10 Notes:",ten)
