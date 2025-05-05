@@ -57,6 +57,7 @@ print("10 Notes:",ten)
 
 '''
 
+
 '''
 A=int(input())
 
