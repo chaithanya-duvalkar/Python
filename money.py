@@ -78,3 +78,31 @@ g=A-(2000*two_thousands)-(500*five_hundred)-(200*two_hundred)-(50*fifty)-(20*twe
 one=int(g/1)
 
 print(f"2000:{two_thousands} 500:{five_hundred} 200:{two_hundred} 50:{fifty} 20:{twenty} 5:{five} 2:{two} 1:{one}")
+
+
+'''
+
+'''
+N=int(input())
+
+thousands=int(N/1000)
+a=N-(1000*thousands)
+five_hundreds=int(a/500)
+b=N-(1000*thousands)-(500*five_hundreds)
+hundreds=int(b/100)
+c=N-(1000*thousands)-(500*five_hundreds)-(100*hundreds)
+fifty=int(c/50)
+d=N-(1000*thousands)-(500*five_hundreds)-(100*hundreds)-(50*fifty)
+twenty=int(d/20)
+e=N-(1000*thousands)-(500*five_hundreds)-(100*hundreds)-(50*fifty)-(20*twenty)
+five=int(e/5)
+f=N-(1000*thousands)-(500*five_hundreds)-(100*hundreds)-(50*fifty)-(20*twenty)-(5*five)
+one=int(f/1)
+
+print(f"1000:{thousands}")
+print(f"500:{five_hundreds}")
+print(f"100:{hundreds}")
+print(f"50:{fifty}")
+print(f"20:{twenty}")
+print(f"5:{five}")
+print(f"1:{one}")
