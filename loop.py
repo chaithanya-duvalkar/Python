@@ -9,9 +9,6 @@ while counter<n:
     counter=counter+1
 
 
-
-
-
 '''
 first natural numbers
 '''
@@ -23,3 +20,13 @@ while count<n:
     a=a+1 
     print(a)
     count=count+1
+
+
+'''reads a N and print the cube of N numbers from 1'''
+N=int(input())
+counter=1
+while counter<=N:
+    cube=(counter**3)
+    print(cube)
+    counter=counter+1 
+    
