@@ -30,3 +30,13 @@ while counter<=N:
     print(cube)
     counter=counter+1 
     
+
+'''
+ Given two integers M and N, print a solid rectangle of M rows and N columns using *, with a space after each *. 
+'''
+M=int(input())
+N=int(input())
+for _ in range(M):
+    print("* "*N)
+    
+         
