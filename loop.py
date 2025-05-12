@@ -38,5 +38,17 @@ M=int(input())
 N=int(input())
 for _ in range(M):
     print("* "*N)
-    
+
+
+'''
+write a program that reads the N and prints the 10 numbers after N
+'''    
+N=int(input())
+
+count=0 
+next_numbers=N
+while count<10:
+    next_numbers=next_numbers+1
+    print(next_numbers)
+    count=count+1    
          
