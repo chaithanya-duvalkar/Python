@@ -63,5 +63,22 @@ next_numbers=M
 while count<N:
     next_numbers=next_numbers+1
     print(next_numbers)
-    count=count+1    
+    count=count+1   
+
+
+'''
+to read two numbers M and N and inputs the sum of N numbers from M
+'''
+M=int(input())
+N=int(input())
+count=1
+sum_numbers=M
+next_numbers=M
+while count<N:
+    next_numbers=next_numbers+1
+    sum_numbers=sum_numbers+next_numbers
+    count=count+1
+print(sum_numbers)    
+
+
          
