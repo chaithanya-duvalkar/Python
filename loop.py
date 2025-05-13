@@ -51,4 +51,17 @@ while count<10:
     next_numbers=next_numbers+1
     print(next_numbers)
     count=count+1    
+
+
+'''
+to read two numbers M and N and print N numbers after M
+'''
+M=int(input())
+N=int(input())
+count=0
+next_numbers=M
+while count<N:
+    next_numbers=next_numbers+1
+    print(next_numbers)
+    count=count+1    
          
