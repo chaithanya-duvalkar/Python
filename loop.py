@@ -81,4 +81,39 @@ while count<N:
 print(sum_numbers)    
 
 
+
+'''
+to print the right-angled triangular pattern of N lines using an * character
+'''
+N=int(input())
+count=1
+
+while count<=N:
+    print("* "*count)
+    count=count+1
+
+
+'''
+to read N numbers as input and prints the product of the given N numbers
+'''    
+N=int(input())
+count=0
+num=1 
+
+while count<N:
+    num=int(input())*num
+    count+=1 
+print(num)    
+    
+
+'''same for sum
+'''
+N=int(input())
+count=0
+sum_numbers=0
+
+while count<N:
+    sum_numbers+=int(input())
+    count+=1 
+print(sum_numbers)    
          
