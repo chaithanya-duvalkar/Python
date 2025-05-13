@@ -116,4 +116,17 @@ while count<N:
     sum_numbers+=int(input())
     count+=1 
 print(sum_numbers)    
+
+
+'''
+to read a word and print each character of the word in a new line
+'''
+a = input()
+counter = 0
+length_of_a = len(a)
+while counter < (length_of_a):
+    print(a[counter])
+    counter = (counter + 1)
+
+
          
