@@ -129,4 +129,16 @@ while counter < (length_of_a):
     counter = (counter + 1)
 
 
+'''
+write a program that reads a string and prints the first character of 
+the given string on N lines, where N is the length of the given string
+'''
+S=input()
+N=int(len(S))
+count=0
+
+while count<N:
+    print(S[0])
+    count=count+1
+
          
