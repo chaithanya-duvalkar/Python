@@ -141,4 +141,13 @@ while count<N:
     print(S[0])
     count=count+1
 
+
+'''to read a string and print each character of the given string on a new line'''
+S=input()
+N=int(len(S))
+count=0
+
+while count<N:
+    print(S[count])
+    count=count+1
          
