@@ -150,4 +150,21 @@ count=0
 while count<N:
     print(S[count])
     count=count+1
+
+
+'''
+'''
+N=int(input())
+count=1 
+
+while count<=N:
+    print((str(count))*count)
+    count+=1
+count=1 
+while count<=N:
+    print((str(count))*count)
+    count+=1   
+
+    
+        
          
