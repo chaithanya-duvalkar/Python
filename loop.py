@@ -175,5 +175,14 @@ while count<=N:
     row=(str(count)+" ")*count
     print(row)
     count+=1
-            
-         
+
+
+'''
+'''
+N=int(input())
+count=1 
+
+while count<N:
+    print("* "*count)
+    count+=1 
+print("+ "*count)            
