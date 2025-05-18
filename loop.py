@@ -200,3 +200,14 @@ count=1
 while count<=N:
     print(count ** 3)
     count+=1
+
+
+'''
+to print N inputs 
+'''
+N=int(input())
+count=1 
+
+for i in range(N):
+    print(int(input()))
+    count+=1    
