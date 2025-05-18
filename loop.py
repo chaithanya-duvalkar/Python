@@ -178,6 +178,7 @@ while count<=N:
 
 
 '''
+to print
 '''
 N=int(input())
 count=1 
