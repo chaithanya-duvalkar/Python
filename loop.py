@@ -202,6 +202,7 @@ while count<=N:
     count+=1
 
 
+'''use for loop'''
 '''
 to print N inputs 
 '''
@@ -210,4 +211,15 @@ count=1
 
 for i in range(N):
     print(int(input()))
-    count+=1    
+    count+=1 
+
+
+'''
+'''
+M=int(input())
+N=int(input())
+count=1 
+
+for i in range(M):
+    print("* "*N)
+    count+=1       
