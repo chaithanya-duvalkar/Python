@@ -188,4 +188,15 @@ count=1
 while count<N:
     print("* "*count)
     count+=1 
-print("+ "*count)            
+print("+ "*count) 
+
+
+'''
+to print cube of N inputs from 1
+'''
+N=int(input())
+count=1 
+
+while count<=N:
+    print(count ** 3)
+    count+=1
