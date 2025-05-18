@@ -215,6 +215,7 @@ for i in range(N):
 
 
 '''
+solid rectangle
 '''
 M=int(input())
 N=int(input())
@@ -223,3 +224,14 @@ count=1
 for i in range(M):
     print("* "*N)
     count+=1       
+
+
+'''
+right angled triangle
+'''
+N=int(input())
+count=1 
+
+for i in range(N):
+    print("* "*count)
+    count+=1    
