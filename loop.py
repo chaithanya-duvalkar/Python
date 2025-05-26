@@ -203,6 +203,7 @@ while count<=N:
 
 
 '''use for loop'''
+
 '''
 to print N inputs 
 '''
@@ -235,3 +236,15 @@ count=1
 for i in range(N):
     print("* "*count)
     count+=1    
+
+
+''' sum of numbers'''
+N=int(input())
+count=0
+sum_numbers=0
+
+for i in range(N):
+    sum_numbers+=int(input())
+    count+=1 
+print(sum_numbers)    
+        
