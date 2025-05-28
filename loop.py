@@ -275,4 +275,11 @@ N=int(input())
 
 for i in range(N):
         print("* "*N)
+
+
+'''to read a number M and prints a Square of M rows and M columns using numbers'''
+N=int(input())
+
+for i in range(1,N+1):
+    print(f"{i}"*N)
         
