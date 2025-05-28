@@ -268,3 +268,11 @@ sum_numbers=0
 for i in range(M,N+1):
     sum_numbers+=i
 print(sum_numbers)                
+
+
+'''write a program that reads a number N and prints a square of N rows and N columns using stars(*)'''
+N=int(input())
+
+for i in range(N):
+        print("* "*N)
+        
