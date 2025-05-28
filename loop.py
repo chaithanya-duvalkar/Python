@@ -259,3 +259,12 @@ for i in range(M,N):
     numbers+=1
     print(numbers)
             
+
+'''sum of numbers from M to N'''
+M=int(input())
+N=int(input())
+sum_numbers=0
+
+for i in range(M,N+1):
+    sum_numbers+=i
+print(sum_numbers)                
