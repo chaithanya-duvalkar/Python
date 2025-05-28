@@ -283,3 +283,17 @@ N=int(input())
 for i in range(1,N+1):
     print(f"{i}"*N)
         
+
+'''to read two numbers M and N, and print a rectangle of M rows and N columns using *'''
+M=int(input())
+N=int(input())
+
+for i in range(M):
+        print("*"*N)
+
+
+'''to print right angled triangle'''
+N=int(input())
+
+for i in range(1,N+1):
+    print("*"*i)        
