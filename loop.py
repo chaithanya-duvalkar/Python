@@ -248,3 +248,14 @@ for i in range(N):
     count+=1 
 print(sum_numbers)    
         
+
+'''to print numbers from M to N'''
+M=int(input())
+N=int(input())
+numbers=M 
+
+print(numbers)
+for i in range(M,N):
+    numbers+=1
+    print(numbers)
+            
