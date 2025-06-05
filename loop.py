@@ -296,4 +296,14 @@ for i in range(M):
 N=int(input())
 
 for i in range(1,N+1):
-    print("*"*i)        
+    print("*"*i)  
+
+
+'''to read a number and print all the digits of the given number separated by space'''
+N=input()
+n=int(len(N))
+numbers=""
+
+for i in range(n):
+    numbers=numbers+N[i]+" "
+print(numbers)              
