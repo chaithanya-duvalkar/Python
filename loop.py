@@ -306,4 +306,10 @@ numbers=""
 
 for i in range(n):
     numbers=numbers+N[i]+" "
-print(numbers)              
+print(numbers)  
+
+'''print numbers in reverse'''
+N=int(input())
+ 
+for i in range(N):
+    print(N-i)
