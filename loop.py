@@ -313,3 +313,11 @@ N=int(input())
  
 for i in range(N):
     print(N-i)
+
+'''print string in revrese'''
+s=input()
+N=(len(s))
+
+for i in range(1,N+1):
+    index=N-i
+    print(s[index])    
