@@ -136,5 +136,16 @@ triple=N*3
 if triple % 6 == 0:
     print(triple)
 else:
-    print(N)               
+    print(N)      
+
+
+'''hollow square pattern'''
+N=int(input())
+M=int(input())
+
+for i in range(N):
+    if i==0 or i==N-1:
+        print("* "*M)
+    else:
+        print("* "+"  "*(M-2)+"*")             
              
