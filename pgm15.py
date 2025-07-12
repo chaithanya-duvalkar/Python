@@ -147,5 +147,17 @@ for i in range(N):
     if i==0 or i==N-1:
         print("* "*M)
     else:
-        print("* "+"  "*(M-2)+"*")             
+        print("* "+"  "*(M-2)+"*")   
+
+
+'''hollow right angled triangle'''
+N=int(input())
+
+print("_"*(N+1))
+for i in range(N-1,0,-1):
+    if i==1:
+        print("|/")
+    else:
+        print("| "+(" ")*(i-2)+" /")
+                          
              
