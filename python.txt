@@ -1,0 +1,11 @@
+Python is simple and easy
+free and open source 
+high level language
+developed by guido van rossum
+portable
+
+through python we can explore 
+-data science
+-ml/ai
+-webdev(django)
+-games
