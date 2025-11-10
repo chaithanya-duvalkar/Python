@@ -32,3 +32,32 @@ methods
 static methods
 -methods that don't use the self parameter(work at class level)
 -decorators allow us to wrap another fucntion in order to extend the behaviour of the wrapped function, without permanently modifying it
+
+Abstraction
+-hiding the implementation details of a class and only showing the essential features to the user
+
+Encapsulation
+-wrapping data and functions into a single unit(object)
+
+del keyword
+-used to delete object properties or object itself
+del s1.name
+del name
+
+private(like) attributes and methods
+-used only within the class and are not accessible from outside the class
+
+inheritance
+-dervies the ppties and methods of another class
+
+types of inheritance
+-single
+-multi-level 
+-multiple
+
+super method 
+-access methods of the parent class
+
+polymorphism
+-when the same operator is allowed to have diff meaning according to the context
+operator overloading

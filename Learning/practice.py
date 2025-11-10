@@ -46,7 +46,6 @@ value={
 }
 print(value)
 
-
 #create student class that takes name and marks of 3 subjects as arguments in constructor.
 #then create a method to print the average
 
@@ -72,3 +71,29 @@ s1.name="chukki"
 s1.get_avg()
     
 s1.hello()
+
+#create account class with 2 attributes- balance and account no.
+#create methods for debit, credit and printing the balance
+class account:
+    def __init__(self,bal,acc):
+        self.balance=bal 
+        self.account_no=acc 
+
+    def debit(self,amount):
+        self.balance-=amount  
+        print("rs. ",amount,"was debited")
+        print("total balance=",self.get_balance())
+
+    def credit(self,amount):
+        self.balance+=amount  
+        print("rs. ",amount,"was credited")
+        print("total balance=",self.get_balance())
+
+    def get_balance(self):
+        return self.balance
+    
+acc1=account(10000,12345)
+acc1.debit(1000)
+acc1.credit(5000)
+acc1.debit(10)
+acc1.credit(5000)
