@@ -25,3 +25,10 @@ _init_ functions
 when the class is being initiated.
 -self parameter is a reference to the current instance of the class, and is used to access variables
 that belongs to the class
+
+methods
+-methods are functions that belong to objects
+
+static methods
+-methods that don't use the self parameter(work at class level)
+-decorators allow us to wrap another fucntion in order to extend the behaviour of the wrapped function, without permanently modifying it

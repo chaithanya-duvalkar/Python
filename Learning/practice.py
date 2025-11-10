@@ -45,3 +45,30 @@ value={
     ("int",9)
 }
 print(value)
+
+
+#create student class that takes name and marks of 3 subjects as arguments in constructor.
+#then create a method to print the average
+
+class student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+
+    @staticmethod   #decorator
+    def hello():
+        print("hello")
+        
+    def get_avg(self):
+        sum=0
+        for i in self.marks:
+            sum+=i
+        print("hi",self.name,"!:) Your avg score is: ",sum/3)
+    
+s1=student("chai",[99,98,97])
+s1.get_avg()
+        
+s1.name="chukki"
+s1.get_avg()
+    
+s1.hello()
